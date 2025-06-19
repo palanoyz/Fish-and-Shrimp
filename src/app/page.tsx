@@ -4,7 +4,7 @@ import BubbleAnimation from "@/components/BubbleAnimation";
 import FishButton from "@/components/FishButton";
 import ShrimpButton from "@/components/ShrimpButton";
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH || 'fish-and-shrimp';
+const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (
