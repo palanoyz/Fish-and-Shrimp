@@ -5,13 +5,12 @@ import FishButton from "@/components/FishButton";
 import ShrimpButton from "@/components/ShrimpButton";
 
 export default function Home() {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH || '';
-  
+
   return (
     <div className="relative h-screen overflow-hidden flex flex-col">
       <div className="absolute inset-0 z-0">
         <Image
-          src={`${baseUrl}/images/Beach.png`}
+          src={`/images/Beach.png`}
           alt="Beach Background"
           fill
           className="object-cover blur-sm"
@@ -28,7 +27,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-center w-full text-center text-white pb-20 gap-8 relative">
           <div className="flex flex-col items-center sm:items-center sm:justify-center w-full sm:w-auto order-2 sm:order-none">
             <span className="sway">
-              <Image src={`${baseUrl}/images/fish.png`} alt="Fish" width={300} height={300} />
+              <Image src={`/images/fish.png`} alt="Fish" width={300} height={300} />
             </span>
             <FishButton />
           </div>
@@ -42,7 +41,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center sm:items-center sm:justify-center w-full sm:w-auto order-3 sm:order-none">
             <span className="sway">
-              <Image src={`${baseUrl}/images/shrimp.png`} alt="Shrimp" width={300} height={300} />
+              <Image src={`/images/shrimp.png`} alt="Shrimp" width={300} height={300} />
             </span>
             <ShrimpButton />
           </div>
