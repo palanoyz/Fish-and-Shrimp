@@ -35,9 +35,9 @@ export default function Home() {
             <h1 className="hidden sm:block text-4xl sm:text-6xl font-bold mb-2 sm:mb-4 drop-shadow-lg">
               Fish & Shrimp
             </h1>
-            {/* <p className="text-xl sm:text-3xl drop-shadow-md font-bold block">
-              Website for jobless ACS students
-            </p> */}
+            <p className="text-xl sm:text-3xl drop-shadow-md font-bold block">
+              For jobless ACS students
+            </p>
           </div>
           <div className="flex flex-col items-center sm:items-center sm:justify-center w-full sm:w-auto order-3 sm:order-none">
             <span className="sway">
