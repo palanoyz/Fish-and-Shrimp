@@ -4,9 +4,9 @@ import BubbleAnimation from "@/components/BubbleAnimation";
 import FishButton from "@/components/FishButton";
 import ShrimpButton from "@/components/ShrimpButton";
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 export default function Home() {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  
   return (
     <div className="relative h-screen overflow-hidden flex flex-col">
       <div className="absolute inset-0 z-0">
